@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", e => {
-const img = document.querySelector('img');
+const img = document.querySelector('.visible-pannel');
 const text = document.querySelector('.toggle-pannel');
+
 
 let isVisible =  false;
 console.log(isVisible);
