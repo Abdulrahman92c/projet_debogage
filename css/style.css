@@ -36,6 +36,12 @@ header h1{
     font-weight: bolder;
 
 }
+header h1::before{
+        content: url(../favicon/favicon-32x32.png) counter("icon faq");
+        vertical-align: -0.2rem;
+        margin-right: 2rem;
+        object-fit: contain;
+}
 .container-faq{
     display: flex;
     flex-direction: column;
